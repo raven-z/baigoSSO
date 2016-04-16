@@ -70,11 +70,11 @@ class CLASS_INIT {
         );
 
         $this->arr_dbconfig = array(
-            "BG_DB_HOST"     => array("localhost", "str"),
-            "BG_DB_PORT"     => array(3306, "num"),
+            "BG_DB_HOST"     => array("127.0.0.1:8889", "str"),
+            "BG_DB_PORT"     => array(8889, "num"),
             "BG_DB_NAME"     => array("baigo_sso", "str"),
-            "BG_DB_USER"     => array("baigo_sso", "str"),
-            "BG_DB_PASS"     => array("baigo_sso", "str"),
+            "BG_DB_USER"     => array("root", "str"),
+            "BG_DB_PASS"     => array("zaq12wsx", "str"),
             "BG_DB_CHARSET"  => array("utf8", "str"),
             "BG_DB_TABLE"    => array("sso_", "str"),
         );
